@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping List</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	
+	<link href="css/main.css" rel="stylesheet" type="text/css">
+	<link href="css/responsiveness.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/oop.js"></script>
+</head>
+<body>
+
+
+		<header class="heading" id="includedContent" img="img/shopping_basket.png">
+			<ul>
+				<li><a href="http://twitter.com/kainos_53815">About</a></li>
+				<li><a href="mailto:iyanu.durotola@andela.co">Contact Us</a></li>
+				<li><a href="index.html">Home</a></li>
+			</ul>
+		</header>
+
+		<div class="inserted">
+			<!-- <span>Shopping Just got easier !</span> -->
+			<ul>
+				<!-- <li><img src="img/Shopping_carts.jpg"></li> -->
+				<li><span>Shopping.....</span><p>Just Got Easier !</p></li>
+			</ul>
+			
+		</div>
+		<div id='cart'>
+			<div class='initialList'  id="cartAble">
+				<span>Unprioritized List</span>
+				<ul>
+					<li display=''></li>
+				</ul>
+
+			</div>
+			<div class='finalList'>
+				<ul>
+					<span>Prioritized List</span>
+					<li display=''></li>
+				</ul>
+			</div>
+		</div>
+	<div class="container">
+		<div class="items" id="cartList"> <!-- this will hold the shoppable items -->
+			<h3 class="dropDown">Items</h3>
+			<ul class="listItems">
+				<li><a class="clickAble" value="Hand Bag (item No: B1000)">Hand Bag (item No: B1000)</a></li>
+				<li><a class="clickAble" value="Shoes (item No: B1600)">Shoes (item No: B1600)</a></li>
+				<li><a class="clickAble" value="Laptop Bag (item No: B1630)">Laptop Bag (item No: B1630) </a></li>
+				<li><a class="clickAble" value="T-Shirt (item No: B1690)">T-Shirt (item No: B1690) </a></li>
+				<li><input class='inputField' value ='' type="text" maxlength='20'><button id="addItemBtn">Add Item</button></li>
+			</ul>
+		</div>		
+	</div>
+
+</body>
+</html>
