@@ -12,7 +12,6 @@ var shoppingList = {
 		},
 
 		addItemBtn : function(){    //this adds item  to the initial list from the input
-			alert("button clicked");
 			var addObj = $(".inputField").val();
 			$(".initialList ul").append('<li><input id rel="checked" type="checkbox" value=addObj />' + addObj + '<a class="clickAble item" id="del">Delete</a></li>');
 					},
